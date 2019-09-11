@@ -1,0 +1,32 @@
+body {
+	background-color: #202020;
+}
+
+#centeredContainer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 1080px;
+	height: 1080px;
+
+	overflow: hidden;
+
+	transform: translate(-50%, -50%);
+}
+.fillParent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#textContent {
+	color: #333333;
+	font-family: monospace;
+	font-size: 1rem;
+	word-break: break-all;
+}
+#canvas-prep {
+	z-index: -1;
+}
