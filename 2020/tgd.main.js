@@ -79,10 +79,8 @@ let dropper = (() => {
 
 		primary = new Logo(stagePrep, stage, curCenter.x, curCenter.y, SIZE, {...curColor}, 1, curRotation);
 
-		setTimeout(() => {
-			ColorShift();
-			requestAnimationFrame(Tick);
-		}, 5000);
+		ColorShift();
+		requestAnimationFrame(Tick);
 	}
 	function Tick() {
 		PrimaryFloat();
