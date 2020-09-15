@@ -8,10 +8,10 @@ const COLORS = [
 const SIZE = 500;
 const HALF_SIZE = (SIZE / 2);
 const ORBIT_RADIUS = 50;
-const ORBIT_SPEED = 1;
-const SPAWN_DELAY = 5;
+const ORBIT_SPEED = 3;
+const SPAWN_DELAY = 3;
 const FADE_TIME = 10;
-const ROTATION_AMOUNT = 3;
+const ROTATION_AMOUNT = 2;
 
 function Logo(src, dest, centerX, centerY, size, color, alpha, rotation) {
 	this.logo = document.getElementById('logo');
